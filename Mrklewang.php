@@ -101,6 +101,10 @@ function change(){
         echo "\n".color("green","                     4. ".$voucher4);
         echo "\n".color("green","                     5. ".$voucher5);
         echo "\n".color("green","                     6. ".$voucher6);
+        echo "\n".color("green","                     7. ".$voucher7);
+        echo "\n".color("green","                     8. ".$voucher8);
+        echo "\n".color("green","                     9. ".$voucher9);
+        echo "\n".color("green","                     10. ".$voucher10);
         $expired1 = getStr1('"expiry_date":"','"',$cekvoucher,'1');
         $expired2 = getStr1('"expiry_date":"','"',$cekvoucher,'2');
         $expired3 = getStr1('"expiry_date":"','"',$cekvoucher,'3');
